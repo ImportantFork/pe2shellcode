@@ -711,7 +711,5 @@ def string_to_dword(str):
            ((bytes[2] & 0xff) << 16) | ((bytes[3] & 0xff) << 24)
 
 if __name__=='__main__':
-    #main("e:\\shellcode_framework.exe","e:\\shellcode.bin")
-    #main("e:\\Server in VS.exe","e:\\shellcode.bin")
-    main("D:\\FG\\fg_server\\Release\\fg_server.exe","D:\\FG\\fg_server\\Release\\1.bin")
+    main("D:\\test.exe","D:\\test.bin")
     
